@@ -24,7 +24,7 @@ public class KafkaConsumer extends Thread{
     {
         Properties props = new Properties();
         props.put("zookeeper.connect", "127.0.0.1:2181");
-        props.put("group.id", "topic");
+        props.put("group.id", "topic1");
         props.put("zookeeper.session.timeout.ms", "4000");
         props.put("zookeeper.sync.time.ms", "2000");
         props.put("auto.commit.interval.ms", "10000");
